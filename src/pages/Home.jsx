@@ -3,7 +3,7 @@ import MyImage from "/src/assets/Arrowpic.png";
 import MyDImage from "/src/assets/dhaval.jpg";
 import MyBcakImage from "/src/assets/forntbg.png";
 import { FaDownload } from "react-icons/fa6";
-import Resume from "/src/assets/dhavaL_darji_cv.pdf"
+import Resume from "/src/assets/dhavaldarjicv.pdf"
 import Abouts from "../pages/Abouts";
 import Aos from "aos";
 import "aos/dist/aos.css";
