@@ -1,5 +1,5 @@
 import React from "react";
-import Mycontact from "../assets/part1 (1).png";
+import Mycontact from "/src/assets/part1 (1).png";
 import "aos/dist/aos.css";
 // import { motion } from 'framer-motion';
 

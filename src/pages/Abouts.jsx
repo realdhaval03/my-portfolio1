@@ -1,10 +1,10 @@
 import React from "react";
-import aboutpic from "../assets/aboutbg.png";
-import REACTicon from "../assets/physics.png";
-import HTMLicon from "../assets/html-5.png";
-import CSSicon from "../assets/css-3.png";
-import Boostrapicon from "../assets/media.png";
-import JSicon from "../assets/js.png";
+import aboutpic from "/src/assets/aboutbg.png";
+import REACTicon from "/src/assets/physics.png";
+import HTMLicon from "/src/assets/html-5.png";
+import CSSicon from "/src/assets/css-3.png";
+import Boostrapicon from "/src/assets/media.png";
+import JSicon from "/src/assets/js.png";
 // import { motion } from 'framer-motion';
 import Aos from "aos";
 import "aos/dist/aos.css";

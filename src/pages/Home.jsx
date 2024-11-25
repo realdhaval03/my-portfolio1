@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import MyImage from "../assets/Arrowpic.png";
-import MyDImage from "../assets/dhaval.jpg";
-import MyBcakImage from "../assets/forntbg.png";
+import MyImage from "/src/assets/Arrowpic.png";
+import MyDImage from "/src/assets/dhaval.jpg";
+import MyBcakImage from "/src/assets/forntbg.png";
 import { FaDownload } from "react-icons/fa6";
-import Resume from "../assets/Dhaval_darji_CV.pdf";
+import Resume from "/src/assets/Dhaval_darji_CV.pdf";
 import Abouts from "../pages/Abouts";
 import Aos from "aos";
 import "aos/dist/aos.css";

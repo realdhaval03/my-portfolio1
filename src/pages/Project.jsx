@@ -1,8 +1,8 @@
 import React from "react";
-import Firstpro from "../assets/firstproject.png";
-import Secoundpro from "../assets/secondproject.jpg";
-import Thirdpro from "../assets/thirdproject.png";
-import Fourpro from "../assets/fourproject.jpg";
+import Firstpro from "/src/assets/firstproject.png";
+import Secoundpro from "/src/assets/secondproject.jpg";
+import Thirdpro from "/src/assets/thirdproject.png";
+import Fourpro from "/src/assets/fourproject.jpg";
 import "aos/dist/aos.css";
 
 const Project = () => {
