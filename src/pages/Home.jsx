@@ -3,7 +3,7 @@ import MyImage from "/src/assets/Arrowpic.png";
 import MyDImage from "/src/assets/dhaval.jpg";
 import MyBcakImage from "/src/assets/forntbg.png";
 import { FaDownload } from "react-icons/fa6";
-// import Resume from "/src/assets/Dhaval_darji_CV.pdf";
+import Resume from "/src/assets/dhavaL_darji_cv.pdf"
 import Abouts from "../pages/Abouts";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -40,10 +40,10 @@ const Home = () => {
               <button class="inline-flex text-slate-900 bg-teal-300 border-0 hover:text-teal-300 px-12 py-2 focus:outline-none hover:bg-slate-900 rounded-3xl text-lg">
                 Hire Me
               </button>
-              {/* <button class="ml-4 inline-flex bg-slate-900 text-white  hover:bg-teal-300 hover:text-slate-900  border-0 px-10 py-2 focus:outline-none rounded-3xl text-lg">
+              <button class="ml-4 inline-flex bg-slate-900 text-white  hover:bg-teal-300 hover:text-slate-900  border-0 px-10 py-2 focus:outline-none rounded-3xl text-lg">
               <a href={Resume} download='Resume'>Download CV</a>
               <FaDownload className='ml-4 mt-1'/>
-              </button> */}
+              </button>
             </div>
           </div>
           </div>
