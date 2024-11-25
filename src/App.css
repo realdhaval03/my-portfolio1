@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+}
+.box-animation{
+    animation: box-animation;
+
+    animation-duration: 2s;
+
+}
+@keyframes box-animation{
+    0%{
+        margin-right:150px ;
+        scale: 120%;
+        opacity: 0;
+    }
+    100%{
+        margin-left: 0;
+        scale: 100%;
+
+         opacity: 1;
+}
+}

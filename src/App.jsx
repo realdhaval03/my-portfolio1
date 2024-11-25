@@ -5,7 +5,7 @@ import Abouts from "./pages/Abouts"
 import Project from "./pages/Project"
 import Contact from "./pages/Contact"
 import Footer from "./pages/Footer"
-
+import './App.css'
 
 
 function App() {
@@ -13,17 +13,15 @@ function App() {
 
   return (
     <> 
-    <div className="bg-slate-800">
+    <div className="bg-slate-800 h-auto w-full overflow-hidden " >
     <Navbar/>
     <Home/>
     <Abouts/>
     <Project/>
     <Contact/>
     <Footer/>
-    <Outlet/>
+   
     </div>
-    
-    
     
     </>
   )

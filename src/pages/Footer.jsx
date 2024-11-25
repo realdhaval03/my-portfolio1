@@ -23,10 +23,18 @@ const Footer = () => {
     </div>
 
     <div className='flex justify-center '>
-          <button className=' hover:bg-rose-500 hover:text-white border-0 rounded-full bg-slate-700 text-white p-3 mr-8'><FaInstagram className='w-8 h-8 hover:text-white' /></button>
-          <button className=' hover:bg-white hover:text-sky-600 border-0 rounded-full bg-slate-700 text-white p-3 mr-8'><FaTelegram className='w-8 h-8  hover:text-sky-600' /></button>
-          <button className=' hover:bg-green-500 hover:text-white  border-0 rounded-full bg-slate-700 text-white p-3 mr-8'><FaWhatsapp className='w-8 h-8  hover:text-white' /></button>
-          <button className=' hover:bg-white hover:text-sky-600 border-0 rounded-full bg-slate-700 text-white p-3 mr-8'><FaLinkedin className='w-8 h-8  hover:text-sky-600' /></button>
+          <button className=' hover:bg-rose-500 hover:text-white border-0 rounded-full bg-slate-700 text-white p-3 mr-8'>
+            <a href=""><FaInstagram className='w-8 h-8 hover:text-white' /></a>
+           </button>
+          <button className=' hover:bg-white hover:text-sky-600 border-0 rounded-full bg-slate-700 text-white p-3 mr-8'>
+            <a href=""><FaTelegram className='w-8 h-8  hover:text-sky-600' /></a>
+          </button>
+          <button className=' hover:bg-green-500 hover:text-white  border-0 rounded-full bg-slate-700 text-white p-3 mr-8'>
+            <a href=""><FaWhatsapp className='w-8 h-8  hover:text-white' /></a>
+          </button>
+          <button className=' hover:bg-white hover:text-sky-600 border-0 rounded-full bg-slate-700 text-white p-3 mr-8'>
+            <a href=""><FaLinkedin className='w-8 h-8  hover:text-sky-600' /></a>
+          </button>
     </div>
     </div>
   )
